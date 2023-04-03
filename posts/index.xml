@@ -1,3 +1,120 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Posts on Mark Powell</title><link>https://www.drmarkpowell.com/posts/</link><description>Recent content in Posts on Mark Powell</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 12 Mar 2023 18:22:18 -0700</lastBuildDate><atom:link href="https://www.drmarkpowell.com/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Countries and Nationalities</title><link>https://www.drmarkpowell.com/posts/countries-and-nationalities/</link><pubDate>Sun, 12 Mar 2023 18:22:18 -0700</pubDate><guid>https://www.drmarkpowell.com/posts/countries-and-nationalities/</guid><description>Here&amp;rsquo;s another great puzzle to code a solution to.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Posts on Mark Powell</title><link>https://www.drmarkpowell.com/posts/</link><description>Recent content in Posts on Mark Powell</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 12 Mar 2023 18:22:18 -0700</lastBuildDate><atom:link href="https://www.drmarkpowell.com/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Countries and Nationalities</title><link>https://www.drmarkpowell.com/posts/countries-and-nationalities/</link><pubDate>Sun, 12 Mar 2023 18:22:18 -0700</pubDate><guid>https://www.drmarkpowell.com/posts/countries-and-nationalities/</guid><description>Here&amp;rsquo;s another great puzzle to code a solution for.
 This week&amp;rsquo;s puzzle from NPR:
-This week&amp;rsquo;s challenge is a spinoff of my on-air puzzle. Name two countries that have consonyms that are nationalities of other countries. In each case, the consonants in the name of the country are the same consonants in the same order as those in the nationality of another country. No extra consonants can appear in either name.</description></item><item><title>Movie Shmovie</title><link>https://www.drmarkpowell.com/posts/movie-shmovie/</link><pubDate>Sun, 09 Jan 2022 20:22:36 -0700</pubDate><guid>https://www.drmarkpowell.com/posts/movie-shmovie/</guid><description>Will Shortz himself has often said that however you want to solve the puzzle is fair game. I couldn’t come up with the solution in a short span today running it only in my head, and I have lots of other things to worry over in my spare cycles this week. That said, I figure why not have fun coding in Swift and solving the puzzle of the week at the same time?</description></item></channel></rss>
+This week&amp;rsquo;s challenge is a spinoff of my on-air puzzle. Name two countries that have consonyms that are nationalities of other countries. In each case, the consonants in the name of the country are the same consonants in the same order as those in the nationality of another country. No extra consonants can appear in either name.</description><content:encoded><![CDATA[<p>Here&rsquo;s another great puzzle to code a solution for.</p>
+<p><a href="https://www.npr.org/2023/03/12/1162867188/sunday-puzzle-around-the-world-in-nine-words">This week&rsquo;s puzzle from NPR</a>:</p>
+<blockquote>
+<p>This week&rsquo;s challenge is a spinoff of my on-air puzzle. Name two countries that have consonyms that are nationalities of other countries. In each case, the consonants in the name of the country are the same consonants in the same order as those in the nationality of another country. No extra consonants can appear in either name. The letter Y isn&rsquo;t used.</p>
+</blockquote>
+<p>So if you remove all the vowels, the name of a country will equal the name of a nationality from a different country. Also, for our purposes a letter Y can be considered a vowel (ignored). Sounds good!</p>
+<h3 id="internet-of-trivia-things">Internet of Trivia Things</h3>
+<p>A convenient list of all countries can be found <a href="https://copylists.com/geography/list-all-countries/">here</a></p>
+<p>&hellip;and a list of nationalities <a href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/664133/CH_Nationality_List_20171130_v1.csv">here</a></p>
+<h3 id="to-the-swift">To the Swift!</h3>
+<p>Here&rsquo;s my solution:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-swift" data-lang="swift"><span style="display:flex;"><span>    <span style="color:#66d9ef">func</span> <span style="color:#a6e22e">doPuzzle</span>() async <span style="color:#66d9ef">throws</span> {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">let</span> countriesUrl = Bundle.main.url(forResource: <span style="color:#e6db74">&#34;countries&#34;</span>, withExtension: <span style="color:#e6db74">&#34;txt&#34;</span>)
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">let</span> countryNames = countriesUrl!.lines
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">var</span> countriesNoVowels: [String: String] = [:]
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> <span style="color:#66d9ef">try</span> await name <span style="color:#66d9ef">in</span> countryNames {
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">let</span> noVowels = name.lowercased()
+</span></span><span style="display:flex;"><span>                .filter({ notAVowel($0) })
+</span></span><span style="display:flex;"><span>                .map({ <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">\(</span>$0<span style="color:#e6db74">)</span><span style="color:#e6db74">&#34;</span> })
+</span></span><span style="display:flex;"><span>                .reduce(<span style="color:#e6db74">&#34;&#34;</span>, <span style="color:#f92672">+</span>)
+</span></span><span style="display:flex;"><span>            countriesNoVowels[noVowels] = name
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">let</span> nationalitiesUrl = Bundle.main.url(forResource: <span style="color:#e6db74">&#34;nationalities&#34;</span>, withExtension: <span style="color:#e6db74">&#34;txt&#34;</span>)
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">let</span> nationalityNames = nationalitiesUrl!.lines
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">var</span> nationalitiesNoVowels: [String: String] = [:]
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> <span style="color:#66d9ef">try</span> await name <span style="color:#66d9ef">in</span> nationalityNames {
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">let</span> noVowels = name.lowercased()
+</span></span><span style="display:flex;"><span>                .filter({ notAVowel($0) })
+</span></span><span style="display:flex;"><span>                .map({ <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">\(</span>$0<span style="color:#e6db74">)</span><span style="color:#e6db74">&#34;</span> })
+</span></span><span style="display:flex;"><span>                .reduce(<span style="color:#e6db74">&#34;&#34;</span>, <span style="color:#f92672">+</span>)
+</span></span><span style="display:flex;"><span>            nationalitiesNoVowels[noVowels] = name
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">var</span> countriesNoVowelsSet: Set&lt;String&gt; = []
+</span></span><span style="display:flex;"><span>        countriesNoVowels.keys.forEach {
+</span></span><span style="display:flex;"><span>            countriesNoVowelsSet.insert($0)
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        nationalitiesNoVowels.keys.forEach {
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> countriesNoVowelsSet.contains($0) {
+</span></span><span style="display:flex;"><span>                print(<span style="color:#e6db74">&#34;Match! </span><span style="color:#e6db74">\(</span>countriesNoVowels[$0]<span style="color:#f92672">!</span><span style="color:#e6db74">)</span><span style="color:#e6db74"> </span><span style="color:#e6db74">\(</span>nationalitiesNoVowels[$0]<span style="color:#f92672">!</span><span style="color:#e6db74">)</span><span style="color:#e6db74">&#34;</span>)
+</span></span><span style="display:flex;"><span>            }
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">func</span> <span style="color:#a6e22e">notAVowel</span>(<span style="color:#66d9ef">_</span> character: Character) -&gt; Bool {
+</span></span><span style="display:flex;"><span>        character <span style="color:#f92672">!=</span> <span style="color:#e6db74">&#34;a&#34;</span> <span style="color:#f92672">&amp;&amp;</span>
+</span></span><span style="display:flex;"><span>        character <span style="color:#f92672">!=</span> <span style="color:#e6db74">&#34;e&#34;</span> <span style="color:#f92672">&amp;&amp;</span>
+</span></span><span style="display:flex;"><span>        character <span style="color:#f92672">!=</span> <span style="color:#e6db74">&#34;i&#34;</span> <span style="color:#f92672">&amp;&amp;</span>
+</span></span><span style="display:flex;"><span>        character <span style="color:#f92672">!=</span> <span style="color:#e6db74">&#34;o&#34;</span> <span style="color:#f92672">&amp;&amp;</span>
+</span></span><span style="display:flex;"><span>        character <span style="color:#f92672">!=</span> <span style="color:#e6db74">&#34;u&#34;</span> <span style="color:#f92672">&amp;&amp;</span>
+</span></span><span style="display:flex;"><span>        character <span style="color:#f92672">!=</span> <span style="color:#e6db74">&#34;y&#34;</span>
+</span></span><span style="display:flex;"><span>    }
+</span></span></code></pre></div><p>The beauty of Swift&rsquo;s string implementation lets us iterate over each character of the name of a country or a nationality with a function like <strong>map</strong> or <strong>filter</strong>. As we need to remove the vowels and keep only consonants, a call to <strong>filter</strong> handles that aspect of the work, leaving us with a character. Following that, a call to <em>map</em>* to transform the character to string, and <strong>reduce</strong> to combine all of those single-character strings together, and we have our consonants-only names. Making these names the key values of a dictionary allows us to map them back to their original country or nationality name.</p>
+<h3 id="the-need-for-speed">The Need? for Speed</h3>
+<p>To keep things snappy, I also build a <strong>Set<String></strong> of vowel-less country names so that I can call <strong>.contains(_: String)</strong> on that for each nationality to check for a match. As it <a href="https://developer.apple.com/documentation/swift/set/contains(_:)">states in the Apple docs</a>, when the elements are <strong>Hashable</strong>, the performance of a contains check is O(1), so it&rsquo;s extremely fast. Although I may be guilty of premature optimization for this small data set, let&rsquo;s just chalk this one up to sticking with best practices, shall we? ;)</p>
+<h3 id="one-out-of-two-aint-bad-also-spoilers">One out of Two Ain&rsquo;t Bad (Also Spoilers)</h3>
+<p>So unfortunately with these data sources, we have no association between country and nationality, so we can&rsquo;t automatically reject matches from the <em>same</em> country like Germany and German. However, if we allow our eyes to fall immediately to the end of the list of matches we see:</p>
+<blockquote>
+<p>Match! Lebanon Albanian</p>
+</blockquote>
+<p>&hellip;which is great! This was indeed one of the accepted answers.</p>
+<p>Now if you look ahead to next week&rsquo;s puzzle for this accepted answer, you can also see that there was a second solution that we didn&rsquo;t see!</p>
+<blockquote>
+<p>Ukraine &ndash;&gt; Korean</p>
+</blockquote>
+<p>Which is a shame because the puzzle stated that the solver needed to find both. The reason why our code didn&rsquo;t find this answer was because in our nationalities file we have entries for</p>
+<blockquote>
+<p>North Korean</p>
+<p>South Korean</p>
+</blockquote>
+<p>&hellip;but none for simply &ldquo;Korean&rdquo;. That&rsquo;s politics for you, I suppose.</p>
+<p>It is still a fun puzzle to code up a solution for though. So, until next week, happy solving!</p>
+]]></content:encoded></item><item><title>Movie Shmovie</title><link>https://www.drmarkpowell.com/posts/movie-shmovie/</link><pubDate>Sun, 09 Jan 2022 20:22:36 -0700</pubDate><guid>https://www.drmarkpowell.com/posts/movie-shmovie/</guid><description>Will Shortz himself has often said that however you want to solve the puzzle is fair game. I couldn’t come up with the solution in a short span today running it only in my head, and I have lots of other things to worry over in my spare cycles this week. That said, I figure why not have fun coding in Swift and solving the puzzle of the week at the same time?</description><content:encoded><![CDATA[<p>Will Shortz himself has often said that however you want to solve the puzzle is fair game. I couldn’t come up with the solution in a short span today running it only in my head, and I have lots of other things to worry over in my spare cycles this week. That said, I figure why not have fun coding in Swift and solving the puzzle of the week at the same time?</p>
+<p>This week&rsquo;s puzzle as stated at <a href="https://www.npr.org/2022/01/09/1071581311/sunday-puzzle-movie-shmovie">NPR</a>:</p>
+<blockquote>
+<p>This week’s challenge: This week’s challenge comes for Joseph Young, who conducts the blog “Puzzleria!” Let A = 1, B = 2, C = 3, etc. Think of a five-letter word whose letters’ values add up to 51. Now take this word’s last two letters. Add their values. (For example A and C would total 4.) Change these two letters to the single letter of the alphabet that represents their total. (In this case, D.) The result will be a new word that is the opposite of the original. What words are these?</p>
+</blockquote>
+<p>Some things we can quickly glean from the stated puzzle:</p>
+<ol>
+<li>The answer is two words that are opposites, one five letters long and the other four.</li>
+<li>The first three letters of each of the pair of words is the same, so “light” and “dark” would not work. That’ll help us see the correct answer when we find it, though.</li>
+</ol>
+<p>Time to write some code to automatically compute those point totals!</p>
+<h3 id="five-letter-words">Five letter words</h3>
+<p>First, we need to find ourselves a text file containing all the five letter words that we want to test.</p>
+<p>The <a href="https://www.thefreedictionary.com/5-letter-words.htm">free dictionary</a> website has a very convenient list of five letter words that are in the Scrabble dictionary and several others. That’ll do nicely: copy and paste into a text file and we’re ready to read it with actual code and do some processing.</p>
+<h3 id="its-swift-time">It&rsquo;s Swift time</h3>
+<p>After firing up Xcode, here is the quick-fire code that will read in each word from the file and total up its point value:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-swift" data-lang="swift"><span style="display:flex;"><span>    <span style="color:#66d9ef">func</span> <span style="color:#a6e22e">doPointTotal</span>() async <span style="color:#66d9ef">throws</span> {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">let</span> fiveUrl = Bundle.main.url(forResource: <span style="color:#e6db74">&#34;five_letter_words&#34;</span>, withExtension: <span style="color:#e6db74">&#34;txt&#34;</span>)
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">let</span> wordLines = fiveUrl!.lines
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> <span style="color:#66d9ef">try</span> await line <span style="color:#66d9ef">in</span> wordLines {
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> line.count <span style="color:#f92672">!=</span> <span style="color:#ae81ff">5</span> {
+</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">continue</span>
+</span></span><span style="display:flex;"><span>            }
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">var</span> pointTotal:UInt8 = <span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">for</span> char <span style="color:#66d9ef">in</span> line.lowercased() {
+</span></span><span style="display:flex;"><span>                pointTotal <span style="color:#f92672">+=</span> char.asciiValue! <span style="color:#f92672">-</span> Character(<span style="color:#e6db74">&#34;a&#34;</span>).asciiValue! <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>            }
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> pointTotal == <span style="color:#ae81ff">51</span> {
+</span></span><span style="display:flex;"><span>                print(line)
+</span></span><span style="display:flex;"><span>            }
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>    }
+</span></span></code></pre></div><p>The <strong>URL.lines</strong> returns a nice <strong>AsyncSequence</strong> that we can iterate over using this for try await loop. This will actually interleave the I/O of reading the file with the process, so the content will page in on demand if the file is really large, avoiding the need to wait to read it all first before processing can begin (or crash if there’s not enough memory capacity to read it all!) Three cheers for async/await in Swift!</p>
+<p>Also, how elegant is that <strong>for try await</strong> syntax? Eat your heart out and my dust, Python, most popular language in the world!</p>
+<p>Once we have each word as a String, it’s a simple matter of computing the value of each character and assign “a” as 1, “b” as 2, and so on. If the point total of the word is exactly 51, we print it out.</p>
+<p>Now before we write more code than we really need, let’s run it and see what we get:</p>
+<blockquote>
+<p>avoid</p>
+<p>broke</p>
+<p>daily</p>
+</blockquote>
+<p>Looks like it’s working great! I actually got 14 words from my dictionary file that meet the puzzle criteria, and that narrows it down nicely, (The other words are omitted from this post to avoid spoilers for my fellow puzzle solving fans.)</p>
+<p>That’s it for this week! Happy coding and puzzle solving.</p>
+]]></content:encoded></item></channel></rss>
