@@ -49,12 +49,12 @@ See every episode Vid Diva is an app that can not only act as a place to keep tr
 <p><a href="/apps/viddiva/privacy">Privacy Policy</a></p>
 ]]></content:encoded></item><item><title/><link>https://www.drmarkpowell.com/apps/viddiva/privacy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.drmarkpowell.com/apps/viddiva/privacy/</guid><description>Vid Diva Privacy Policy This policy applies to all information collected or submitted on Vid Diva’s website and our apps for iPhone and any other devices and platforms.
 iCloud Vid Diva stores some of your data in Apple’s iCloud service, such as subscribed TV series and movies, to enable some sync features between all devices signed into your Apple ID.
-RevenueCat for subscription and/or in-app purchase of Vid Diva Premium Vid Diva uses RevenueCat to manage the purchase of subscription and/or in-app purchase.</description><content:encoded><![CDATA[<h1 id="vid-diva-privacy-policy">Vid Diva Privacy Policy</h1>
+RevenueCat for purchases Vid Diva uses RevenueCat to anonymously manage subscription and in-app purchases.</description><content:encoded><![CDATA[<h1 id="vid-diva-privacy-policy">Vid Diva Privacy Policy</h1>
 <p>This policy applies to all information collected or submitted on Vid Diva’s website and our apps for iPhone and any other devices and platforms.</p>
 <h2 id="icloud">iCloud</h2>
 <p>Vid Diva stores some of your data in Apple’s iCloud service, such as subscribed TV series and movies, to enable some sync features between all devices signed into your Apple ID.</p>
-<h2 id="revenuecat-for-subscription-andor-in-app-purchase-of-vid-diva-premium">RevenueCat for subscription and/or in-app purchase of Vid Diva Premium</h2>
-<p>Vid Diva uses RevenueCat to manage the purchase of subscription and/or in-app purchase. An anonymous user id is generated and used for this purpose and no other purpose in Vid Diva.</p>
+<h2 id="revenuecat-for-purchases">RevenueCat for purchases</h2>
+<p>Vid Diva uses RevenueCat to anonymously manage subscription and in-app purchases. An anonymous user id is generated and used for these purchases and no other purpose. RevenueCat doesn&rsquo;t track any personal information related to you or your watching habits.</p>
 <h2 id="security">Security</h2>
 <p>All network data transfers in the Vid Diva app use HTTPS  to keep your information and use of the app secure.</p>
 <h2 id="third-party-links-and-content">Third-party links and content</h2>
