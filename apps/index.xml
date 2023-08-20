@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Apps on Mark Powell</title><link>https://www.drmarkpowell.com/apps/</link><description>Recent content in Apps on Mark Powell</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="https://www.drmarkpowell.com/apps/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://www.drmarkpowell.com/apps/viddiva/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.drmarkpowell.com/apps/viddiva/</guid><description>Vid Diva TV show and movie tracking app for iPhone and iPad Vid Diva is for people who want to track the shows and movies they want to watch, are watching, or have watched – all in a single app. Just add shows and movies to Vid Diva and never miss a new episode or premiere!
 See every episode Vid Diva is an app that can not only act as a place to keep track of movies and TV shows that you want to watch, but will also alert you when new episodes are available as well.</description><content:encoded><![CDATA[<h1 class="centered">Vid Diva</h1>
-<p><a href="https://apps.apple.com/us/app/vid-diva/id1569992959"><img loading="lazy" src="/images/VidDivaAppIcon.png#center" alt="Vid Diva App Icon"  />
+<p><a href="https://apps.apple.com/us/app/vid-diva/id1569992959"><img loading="lazy" src="/images/icons/VidDivaAppIcon.png#center" alt="Vid Diva App Icon"  />
 </a></p>
 <h3 class="centered"> TV show and movie tracking app for iPhone and iPad </h3>
 <p><a href="https://apps.apple.com/us/app/vid-diva/id1569992959"><img loading="lazy" src="/images/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg#center" alt="Download on the App Store"  />
@@ -8,13 +8,13 @@ See every episode Vid Diva is an app that can not only act as a place to keep tr
 <p>Vid Diva is for people who want to track the shows and movies they want to watch, are watching, or have watched – all in a single app. Just add shows and movies to Vid Diva and never miss a new episode or premiere!</p>
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://www.youtube.com/embed/lXBmbpVLEUc" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+  <iframe src="https://www.youtube.com/embed/f5x3QV_Hp5I" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
 </div>
 
 <div class="row">
 <div class="column-1">
 <figure>
-    <img loading="lazy" src="/images/Vid-Diva-iPhone-13-calendar.png"
+    <img loading="lazy" src="/images/screens/Calendar%20iPhone%206.5.png"
          alt="Vid Diva Episode Calendar on iPhone" width="256"/> 
 </figure>
 
@@ -27,7 +27,7 @@ See every episode Vid Diva is an app that can not only act as a place to keep tr
 </div>
 </div>
 <h2 id="follow-your-favorites-free">Follow your favorites, free</h2>
-<p>Vid Diva is free to use for up to 5 shows and movies. Vid Diva Premium allows for an unlimited number of shows and movies to be followed simultaneously and is available as a one-time in-app purchase.</p>
+<p>Vid Diva is free to use for up to 5 shows and movies. Vid Diva Premium allows for an unlimited number of shows and movies to be followed simultaneously and is available as either a one-time in-app purchase or an annual subscription if you prefer.</p>
 <h2 id="your-data-is-yours">Your data is yours</h2>
 <p>Other tracking apps ask to track you in return—collecting and selling your data.  If that’s as big of a bummer to you as it is to me, you might appreciate this app. Vid Diva does not require an account to use and keeps your data private.</p>
 <h3 id="download-vid-diva-today-and-enjoy">Download Vid Diva today and enjoy:</h3>
@@ -38,16 +38,167 @@ See every episode Vid Diva is an app that can not only act as a place to keep tr
 <li>A show calendar that gives you an easy-to-use view of what’s coming up. New episodes of the shows you follow will automatically be added to your watch list</li>
 <li>Notifications that will ensure you know when a new movie is in cinemas or a new episode of your favorite show is out</li>
 <li>A Home screen widget to highlight all of the new TV shows and movies coming out this week</li>
+<li>A Stats screen with charts of your viewing habits and history, for your eyes only</li>
 </ul>
 <figure class="align-center ">
-    <img loading="lazy" src="/images/Vid-Diva-iPad-watchlist.png#center"
+    <img loading="lazy" src="/images/screens/Watchlist%20iPad.png#center"
          alt="Vid Diva Watch List on iPad"/> 
 </figure>
 
 <p><a href="https://apps.apple.com/us/app/vid-diva/id1569992959"><img loading="lazy" src="/images/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg#center" alt="Download on the App Store"  />
 </a></p>
 <p><a href="/apps/viddiva/privacy">Privacy Policy</a></p>
-]]></content:encoded></item><item><title/><link>https://www.drmarkpowell.com/apps/viddiva/privacy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.drmarkpowell.com/apps/viddiva/privacy/</guid><description>Vid Diva Privacy Policy This policy applies to all information collected or submitted on Vid Diva’s website and our apps for iPhone and any other devices and platforms.
+<p><a href="/apps/viddiva/presskit">Press Kit</a></p>
+]]></content:encoded></item><item><title/><link>https://www.drmarkpowell.com/apps/viddiva/presskit/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.drmarkpowell.com/apps/viddiva/presskit/</guid><description>Vid Diva Press Kit TL;DR Vid Diva is an app for people who want to track the shows and movies they want to watch, are watching, or have watched – all in a single app. Tell Vid Diva what show you’re into and it can even send a notification when a new episode is ready to be watched.
+What is Vid Diva? Vid Diva is an app for keeping track of everything people want to watch whether that’s an upcoming blockbuster movie or that must-watch TV show that’s all the rage right now.</description><content:encoded><![CDATA[<h1 id="vid-diva-press-kit">Vid Diva Press Kit</h1>
+<h2 id="tldr">TL;DR</h2>
+<p>Vid Diva is an app for people who want to track the shows and movies they want to watch, are watching, or have watched – all in a single app. Tell Vid Diva what show you’re into and it can even send a notification when a new episode is ready to be watched.</p>
+<h2 id="what-is-vid-diva">What is Vid Diva?</h2>
+<p>Vid Diva is an app for keeping track of everything people want to watch whether that’s an upcoming blockbuster movie or that must-watch TV show that’s all the rage right now.</p>
+<p>With Vid Diva, people can track everything they want to watch as well as what they’ve already seen, giving them an overview of how far through a show’s season they are and how long they have to wait for that season finale. Vid Diva will even notify people when a new show is ready to be watched or that big new movie is on the big screen.</p>
+<p>Users will enjoy:</p>
+<ul>
+<li>An in-app to-do list of TV shows and movies that you plan to watch in the future.</li>
+<li>TV show progress tracking that shows you how far through the current season you are.</li>
+<li>Advanced search capabilities that will find the TV show you’re looking for no matter the TV channel or streaming service it’s on.</li>
+<li>A show calendar that gives you an easy-to-use view of what’s coming up. New episodes of the shows you follow will automatically be added to your watch list.</li>
+<li>Notifications that will ensure you know when a new movie is in cinemas or a new episode of your favorite show is out.</li>
+<li>A Home screen widget to highlight all of the new TV shows and movies coming out this week.</li>
+<li>Stats chart to help you keep an eye on your viewing habits and history.</li>
+</ul>
+<h2 id="who-is-vid-diva-for">Who is Vid Diva for?</h2>
+<p>Vid Diva is for anyone who has too much content to watch and not enough time to watch it! Keeping track of the shows we want to watch is hard enough, but keeping tabs on the ones we’re half way through can be impossible. Vid Diva makes it all so easy!</p>
+<p>Vid Diva has a place on everyone’s Home and can be helpful to:</p>
+<ul>
+<li>People who see a great trailer for a movie and then instantly forget about it and miss its time in the cinema.</li>
+<li>Anyone who watches a ton of TV shows and loses track of where they are in each season.</li>
+<li>TV show fans who want to know as soon as a new episode is available to watch.</li>
+<li>Anyone and everyone who watches movies and TV shows!</li>
+</ul>
+<p>Vid Diva does not allow people to stream content, however – it’s solely to help people keep track of what they watch.</p>
+<h2 id="pricing-and-privacy">Pricing and Privacy</h2>
+<p>Vid Diva is free to use for up to 5 shows and movies. Vid Diva Premium allows for an unlimited number of shows and movies to be followed simultaneously and is available as either:</p>
+<ul>
+<li>a one-time in-app purchase <strong>or</strong></li>
+<li>an annual subscription</li>
+</ul>
+<h2 id="links-and-contacts">Links and contacts</h2>
+<p>Website: <a href="https://viddiva.com">https://viddiva.com</a></p>
+<p>Privacy Policy: <a href="https://www.drmarkpowell.com/apps/viddiva/privacy/">https://www.drmarkpowell.com/apps/viddiva/privacy/</a></p>
+<p><a href="mailto:drmarkpowell@gmail.com">Email me</a></p>
+<p>Social: @drmarkpowell@iosdev.space on Mastodon, @drmarkpowell elsewhere</p>
+<h2 id="vid-diva-screens-icons-and-graphics">Vid Diva screens, icons and graphics</h2>
+<div class="row">
+    <div class="column-1">
+<h3 id="vid-diva-app-icon">Vid Diva App Icon</h3>
+<ul>
+<li>
+<p><a href="/images/icons/VidDivaAppIcon1024.png">Full resolution 1024x1024</a></p>
+</li>
+<li>
+<p><a href="/images/icons/VidDivaAppIcon180.png">Full resolution 180x180</a></p>
+</li>
+<li>
+<p><a href="/images/icons/VidDivaAppIcon120.png">Full resolution 120x120</a></p>
+  </div>
+  <div class="column-2">
+      <figure>
+            <img loading="lazy" src="/images/icons/VidDivaAppIcon180.png"
+                 alt="Vid Diva App Icon"/> 
+        </figure>
+
+  </div>
+</li>
+</ul>
+</div>
+<div class="row">
+<div class="column-1">
+<h3 id="vid-diva-calendar-screen">Vid Diva Calendar screen</h3>
+<ul>
+<li><a href="/images/screens/Calendar%20iPhone%205.5.png">Calendar iPhone Dark 5.5&quot;</a></li>
+<li><a href="/images/screens/Calendar%20iPhone%206.5.png">Calendar iPhone Dark 6.5&quot;</a></li>
+<li><a href="/images/screens/Calendar%20iPhone%206.7.png">Calendar iPhone Dark 6.7&quot;</a></li>
+<li><a href="/images/screens/Calendar%20iPad.png">Calendar iPad Dark 12.9&quot;</a></li>
+<li><a href="/images/screens/Calendar%20Light%20iPhone%205.5.png">Calendar iPhone Light 5.5&quot;</a></li>
+<li><a href="/images/screens/Calendar%20Light%20iPhone%206.5.png">Calendar iPhone Light 6.5&quot;</a></li>
+<li><a href="/images/screens/Calendar%20Light%20iPhone%206.7.png">Calendar iPhone Light 6.7&quot;</a></li>
+<li><a href="/images/screens/Calendar%20Light%20iPad.png">Calendar iPad Light 12.9&quot;</a></li>
+</ul>
+</div>
+<div class="column-2">
+    <figure>
+        <img loading="lazy" src="/images/screens/Calendar%20iPhone%206.7.png"
+             alt="Vid Diva Calendar Screen"/> 
+    </figure>
+
+</div>
+</div>
+<div class="row">
+<div class="column-1">
+<h3 id="vid-diva-watch-list-screen">Vid Diva Watch List screen</h3>
+<ul>
+<li><a href="/images/screens/Watchlist%20iPhone%205.5.png">Watchlist iPhone Dark 5.5&quot;</a></li>
+<li><a href="/images/screens/Watchlist%20iPhone%206.5.png">Watchlist iPhone Dark 6.5&quot;</a></li>
+<li><a href="/images/screens/Watchlist%20iPhone%206.7.png">Watchlist iPhone Dark 6.7&quot;</a></li>
+<li><a href="/images/screens/Watchlist%20iPad.png">Watchlist iPad Dark 12.9&quot;</a></li>
+<li><a href="/images/screens/Watchlist%20Light%20iPhone%205.5.png">Watchlist iPhone Light 5.5&quot;</a></li>
+<li><a href="/images/screens/Watchlist%20Light%20iPhone%206.5.png">Watchlist iPhone Light 6.5&quot;</a></li>
+<li><a href="/images/screens/Watchlist%20Light%20iPhone%206.7.png">Watchlist iPhone Light 6.7&quot;</a></li>
+<li><a href="/images/screens/Watchlist%20Light%20iPad.png">Watchlist iPad Light 12.9&quot;</a></li>
+</ul>
+</div>
+<div class="column-2">
+    <figure>
+        <img loading="lazy" src="/images/screens/Watchlist%20iPhone%206.7.png"
+             alt="Vid Diva Watchlist Screen"/> 
+    </figure>
+
+</div>
+</div>
+<div class="row">
+<div class="column-1">
+<h3 id="vid-diva-search-screen">Vid Diva Search screen</h3>
+<ul>
+<li><a href="/images/screens/Search%20iPhone%205.5.png">Search iPhone Dark 5.5&quot;</a></li>
+<li><a href="/images/screens/Search%20iPhone%206.5.png">Search iPhone Dark 6.5&quot;</a></li>
+<li><a href="/images/screens/Search%20iPhone%206.7.png">Search iPhone Dark 6.7&quot;</a></li>
+<li><a href="/images/screens/Search%20iPad.png">Search iPad Dark 12.9&quot;</a></li>
+<li><a href="/images/screens/Search%20Light%20iPhone%205.5.png">Search iPhone Light 5.5&quot;</a></li>
+<li><a href="/images/screens/Search%20Light%20iPhone%206.5.png">Search iPhone Light 6.5&quot;</a></li>
+<li><a href="/images/screens/Search%20Light%20iPhone%206.7.png">Search iPhone Light 6.7&quot;</a></li>
+<li><a href="/images/screens/Search%20Light%20iPad.png">Search iPad Light 12.9&quot;</a></li>
+</ul>
+</div>
+<div class="column-2">
+    <figure>
+        <img loading="lazy" src="/images/screens/Search%20iPhone%206.7.png"
+             alt="Vid Diva Search Screen"/> 
+    </figure>
+
+</div>
+</div>
+<div class="row">
+<div class="column-1">
+<h3 id="vid-diva-stats-screen">Vid Diva Stats screen</h3>
+<ul>
+<li><a href="/images/screens/Stats%20iPhone%205.5.png">Stats iPhone Dark 5.5&quot;</a></li>
+<li><a href="/images/screens/Stats%20iPhone%206.5.png">Stats iPhone Dark 6.5&quot;</a></li>
+<li><a href="/images/screens/Stats%20iPhone%206.7.png">Stats iPhone Dark 6.7&quot;</a></li>
+<li><a href="/images/screens/Stats%20iPad.png">Stats iPad Dark 12.9&quot;</a></li>
+<li><a href="/images/screens/Stats%20Light%20iPhone%205.5.png">Stats iPhone Light 5.5&quot;</a></li>
+<li><a href="/images/screens/Stats%20Light%20iPhone%206.5.png">Stats iPhone Light 6.5&quot;</a></li>
+<li><a href="/images/screens/Stats%20Light%20iPhone%206.7.png">Stats iPhone Light 6.7&quot;</a></li>
+<li><a href="/images/screens/Stats%20Light%20iPad.png">Stats iPad Light 12.9&quot;</a></li>
+</ul>
+</div>
+<div class="column-2">
+    <figure>
+        <img loading="lazy" src="/images/screens/Stats%20iPhone%206.7.png"
+             alt="Vid Diva Stats Screen"/> 
+    </figure>
+
+</div>
+</div>]]></content:encoded></item><item><title/><link>https://www.drmarkpowell.com/apps/viddiva/privacy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.drmarkpowell.com/apps/viddiva/privacy/</guid><description>Vid Diva Privacy Policy This policy applies to all information collected or submitted on Vid Diva’s website and our apps for iPhone and any other devices and platforms.
 iCloud Vid Diva stores some of your data in Apple’s iCloud service, such as subscribed TV series and movies, to enable some sync features between all devices signed into your Apple ID.
 RevenueCat for purchases Vid Diva uses RevenueCat to anonymously manage subscription and in-app purchases.</description><content:encoded><![CDATA[<h1 id="vid-diva-privacy-policy">Vid Diva Privacy Policy</h1>
 <p>This policy applies to all information collected or submitted on Vid Diva’s website and our apps for iPhone and any other devices and platforms.</p>
