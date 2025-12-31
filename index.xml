@@ -89,6 +89,65 @@ Every mood, every moment DJ Mood organizes hundreds of Apple Music playlists int
 <p><a href="https://apps.apple.com/us/app/djmood/APPID" target="_blank" rel="noopener"><img loading="lazy" src="/images/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg#center" alt="Download on the App Store"  />
 </a></p>
 <p><a href="/apps/djmood/privacy">Privacy Policy</a></p>
+]]></content:encoded></item><item><title/><link>https://www.drmarkpowell.com/apps/owl/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.drmarkpowell.com/apps/owl/</guid><description>OWL Privacy Policy</description><content:encoded><![CDATA[<h1 class="centered">OWL</h1>
+<!--
+[![OWL App Icon](/images/icons/OWLAppIcon.png#center)](https://apps.apple.com/us/app/owl/APPID)
+
+<h3 class="centered"> Real-time fictional alphabet detection and translation </h3>
+
+[![Download on the App Store](/images/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg#center)](https://apps.apple.com/us/app/owl/APPID)
+
+OWL (Other Worldly Languages) uses advanced machine learning to automatically detect and translate Aurebesh characters in real-time. This isn't a keyboard. This isn't flashcards. This is real character detection using computer vision. Point your camera at mysterious glyphs and watch translations appear instantly at 50 FPS.
+
+<div class="row">
+<div class="column-1">
+<figure>
+    <img loading="lazy" src="/images/screens/owl-video.png"
+         alt="OWL Real-time Detection on iPhone" width="256"/> 
+</figure>
+
+</div>
+<div class="column-2">
+
+## Automatic detection, not learning tools
+
+Unlike other apps that teach you Aurebesh or provide keyboards, OWL uses AI to detect existing text automatically. Already know Aurebesh? Now find it anywhere - in books, screens, posters, or the real world.
+
+## Privacy-first computer vision
+
+All image processing happens on your device using CoreML. Your photos never leave your phone. No cloud uploads. No tracking. No data collection. Built with NASA-quality engineering standards.
+
+</div>
+</div>
+
+## Free to try, premium for power users
+
+OWL is free to use with 10 photo translations per day and 30-second video sessions. OWL Premium unlocks unlimited translations, unlimited video length, export capabilities, and future alphabets as an annual subscription or monthly plan.
+
+## Your privacy matters
+
+Other translation apps upload your photos to the cloud. OWL processes everything on-device. We don't collect your data, track your usage, or sell your information. What you scan stays on your device.
+
+### Download OWL today and enjoy:
+
+- Real-time camera detection at 50 FPS using advanced ML
+- Automatic character recognition for Aurebesh alphabet
+- Photo analysis from your library
+- Smooth zoom and pan for detailed inspection
+- Confidence scores for each detection
+- All processing on-device (privacy-first)
+- Export translated images and text (Premium)
+- More fictional alphabets coming soon
+
+<figure class="align-center ">
+    <img loading="lazy" src="/images/screens/owl-photo.png#center"
+         alt="OWL Photo Detection on iPad"/> 
+</figure>
+
+
+[![Download on the App Store](/images/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg#center)](https://apps.apple.com/us/app/owl/APPID)
+-->
+<p><a href="/apps/owl/privacy">Privacy Policy</a></p>
 ]]></content:encoded></item><item><title>Tabs with NavigationStacks: Deeper Programmatic Navigation</title><link>https://www.drmarkpowell.com/posts/tabs-with-navigation/</link><pubDate>Sun, 22 Sep 2024 12:00:00 -0700</pubDate><guid>https://www.drmarkpowell.com/posts/tabs-with-navigation/</guid><description>There are some great developer posts about programmatic navigation using NavigationStack with NavigationPath such as this one I recently read by David Bureš. This is great for apps that need navigation depth but not breadth. By breadth, I mean apps whose scope contains categories of screens that require a TabView. If your app can benefit from the breadth of using tabs in addition to navigation stacks that give you the depth, you can still achieve programmatic navigation as well.</description><content:encoded><![CDATA[<p>There are some great developer posts about programmatic navigation using <code>NavigationStack</code> with <code>NavigationPath</code> such as <a href="https://buresdv.substack.com/p/programmatic-navigation-in-swiftui?r=2vioyx&amp;triedRedirect=true" target="_blank" rel="noopener">this one</a> I recently read by David Bureš. This is great for apps that need navigation depth but not breadth. By breadth, I mean apps whose scope contains categories of screens that require a <code>TabView</code>. If your app can benefit from the breadth of using tabs in addition to navigation stacks that give you the depth, you can still achieve programmatic navigation as well.</p>
 <p>If you want to browse or try this example code yourself, the <a href="https://github.com/drmarkpowell/PocketMonsterIndex" target="_blank" rel="noopener">whole project</a> is available (requires iOS 18 or macOS 15 to run).</p>
 <h3 id="catching-all-the-tabs-and-nav-stacks">Catching all the tabs and nav stacks</h3>
@@ -454,6 +513,71 @@ Collect personal information Track your activity Store your data on our servers 
 <h3 id="changes-to-this-policy">Changes to this policy</h3>
 <ul>
 <li>November 27, 2025: First published.</li>
+</ul>
+]]></content:encoded></item><item><title/><link>https://www.drmarkpowell.com/apps/owl/privacy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.drmarkpowell.com/apps/owl/privacy/</guid><description>OWL Privacy Policy This policy applies to all information collected or submitted on OWL&amp;rsquo;s apps for iPhone, iPad, and any other devices and platforms.
+Camera and Photo Library Access OWL requires camera and photo library access to detect and translate characters in images:
+Camera Access: Used for real-time character detection. All processing happens on your device using CoreML. Camera frames are not saved, uploaded, or transmitted. Photo Library Access: Used to analyze images you select.</description><content:encoded><![CDATA[<h1 id="owl-privacy-policy">OWL Privacy Policy</h1>
+<p>This policy applies to all information collected or submitted on OWL&rsquo;s apps for iPhone, iPad, and any other devices and platforms.</p>
+<h2 id="camera-and-photo-library-access">Camera and Photo Library Access</h2>
+<p>OWL requires camera and photo library access to detect and translate characters in images:</p>
+<ul>
+<li><strong>Camera Access</strong>: Used for real-time character detection. All processing happens on your device using CoreML. Camera frames are not saved, uploaded, or transmitted.</li>
+<li><strong>Photo Library Access</strong>: Used to analyze images you select. Photos are processed locally on your device and never leave your phone.</li>
+<li><strong>On-Device Processing</strong>: All image analysis is performed using Apple&rsquo;s Vision and CoreML frameworks directly on your device. No images are sent to servers or third parties.</li>
+</ul>
+<h2 id="machine-learning-models">Machine Learning Models</h2>
+<p>OWL uses a YOLO CoreML model for character detection:</p>
+<ul>
+<li>The ML model is downloaded once during app installation</li>
+<li>All inference (character detection) runs locally on your device</li>
+<li>No detection data is collected, stored, or transmitted</li>
+<li>Your images and detection results remain completely private</li>
+</ul>
+<h2 id="revenuecat-for-subscriptions">RevenueCat for Subscriptions</h2>
+<p>OWL uses RevenueCat to manage subscriptions and in-app purchases:</p>
+<ul>
+<li>An anonymous user ID is generated for purchase management</li>
+<li>RevenueCat does not track any personal information about you</li>
+<li>No information about what you detect or translate is shared with RevenueCat</li>
+<li>RevenueCat only processes subscription status and purchase receipts</li>
+</ul>
+<p>For more information about RevenueCat&rsquo;s privacy practices, see their <a href="https://www.revenuecat.com/privacy" target="_blank" rel="noopener">Privacy Policy</a>.</p>
+<h2 id="data-collection">Data Collection</h2>
+<p><strong>We do not collect, store, or transmit any personal data or usage information.</strong></p>
+<p>OWL operates entirely on your device and does not collect information about you or your usage of the app. We do not:</p>
+<ul>
+<li>Collect personal information</li>
+<li>Track your activity or what you detect</li>
+<li>Store your photos or detection results on our servers</li>
+<li>Share your information with third parties</li>
+<li>Use analytics or tracking services</li>
+<li>Upload images to the cloud</li>
+</ul>
+<h2 id="security">Security</h2>
+<p>All network data transfers in the OWL app (for subscription verification only) use HTTPS to keep your information secure.</p>
+<h2 id="third-party-links-and-content">Third-party links and content</h2>
+<p>OWL is an independent tool for fictional alphabet detection and is not affiliated with or endorsed by any entertainment franchises.</p>
+<h2 id="california-online-privacy-protection-act-compliance">California Online Privacy Protection Act Compliance</h2>
+<p>We comply with the California Online Privacy Protection Act. We therefore will not distribute your personal information to outside parties without your consent. (We collect no personal information anyway!)</p>
+<h2 id="childrens-online-privacy-protection-act-compliance">Children&rsquo;s Online Privacy Protection Act Compliance</h2>
+<p>We never collect or maintain information at our website from those we actually know are under 13, and no part of our website is structured to attract anyone under 13. Since OWL does not collect any data at all, the app is safe for users of all ages.</p>
+<h2 id="information-for-european-union-customers">Information for European Union Customers</h2>
+<p>OWL processes all data locally on your device. No personal information is transmitted to servers. Subscription data processed by RevenueCat may be stored outside of the EU, but this data is limited to anonymous purchase receipts and subscription status.</p>
+<h2 id="your-rights">Your Rights</h2>
+<p>Since OWL does not collect any personal data beyond anonymous subscription management, there is minimal data to access, modify, or delete. You maintain complete privacy while using the app.</p>
+<p>To manage your subscription data:</p>
+<ul>
+<li>View and manage subscriptions through the iOS Settings app</li>
+<li>Cancel subscriptions at any time through App Store settings</li>
+<li>Contact us if you need assistance with subscription-related data</li>
+</ul>
+<h2 id="your-consent">Your Consent</h2>
+<p>By using our apps, you consent to our privacy policy.</p>
+<h2 id="contacting-us">Contacting Us</h2>
+<p>If you have questions regarding this privacy policy, you may contact us through the App Store or via email. Please note that data management should be done within the iOS Settings app, not via email requests, for security reasons.</p>
+<h3 id="changes-to-this-policy">Changes to this policy</h3>
+<ul>
+<li>December 30, 2024: First published.</li>
 </ul>
 ]]></content:encoded></item><item><title/><link>https://www.drmarkpowell.com/apps/viddiva/presskit/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.drmarkpowell.com/apps/viddiva/presskit/</guid><description>Vid Diva Press Kit TL;DR Vid Diva is an app for people who want to track the shows and movies they want to watch, are watching, or have watched – all in a single app. Tell Vid Diva what show you’re into and it can even send a notification when a new episode is ready to be watched.
 What is Vid Diva? Vid Diva is an app for keeping track of everything people want to watch whether that’s an upcoming blockbuster movie or that must-watch TV show that’s all the rage right now.</description><content:encoded><![CDATA[<h1 id="vid-diva-press-kit">Vid Diva Press Kit</h1>
