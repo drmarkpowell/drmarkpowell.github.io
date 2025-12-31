@@ -243,7 +243,7 @@ Camera Access: Used for real-time character detection. All processing happens on
 <li><strong>On-Device Processing</strong>: All image analysis is performed using Apple&rsquo;s Vision and CoreML frameworks directly on your device. No images are sent to servers or third parties.</li>
 </ul>
 <h2 id="machine-learning-models">Machine Learning Models</h2>
-<p>OWL uses a YOLO CoreML model for character detection:</p>
+<p>OWL uses an on-device model for character detection:</p>
 <ul>
 <li>The ML model is downloaded once during app installation</li>
 <li>All inference (character detection) runs locally on your device</li>
